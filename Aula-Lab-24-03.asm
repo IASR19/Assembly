@@ -19,5 +19,13 @@ sub $s4,$s2,$s3
 li $s5, 20
 subi $s6, $s5, 150
 
+# Desafio:
+
+li $v0,57
+move $t8,
+syscall
+
+move $s7,$v0
+
 
 
